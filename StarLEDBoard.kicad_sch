@@ -355,7 +355,7 @@
 		)
 	)
 	(label "LED+"
-		(at 161.29 96.52 90)
+		(at 166.37 96.52 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -405,7 +405,7 @@
 		(uuid "9b5b3e41-2619-47d1-9453-3aed057d4551")
 	)
 	(label "LED-"
-		(at 161.29 127 270)
+		(at 166.37 127 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -495,7 +495,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 107.95 90)
+		(at 166.37 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -504,7 +504,7 @@
 		(fields_autoplaced yes)
 		(uuid "26c9d9eb-701d-44cc-b2ae-6ce6f2589b9e")
 		(property "Reference" "D3"
-			(at 159.258 110.7497 90)
+			(at 164.338 110.7497 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -513,7 +513,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 159.258 108.3254 90)
+			(at 164.338 108.3254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,7 +522,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 161.29 107.95 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -531,7 +531,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 107.95 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540,7 +540,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 161.29 107.95 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,7 +549,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 161.29 107.95 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -574,7 +574,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 100.33 90)
+		(at 166.37 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -583,7 +583,7 @@
 		(fields_autoplaced yes)
 		(uuid "492ec664-c2b8-4f4a-a10f-0636aa1c4027")
 		(property "Reference" "D4"
-			(at 159.258 103.1297 90)
+			(at 164.338 103.1297 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,7 +592,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 159.258 100.7054 90)
+			(at 164.338 100.7054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -601,7 +601,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 161.29 100.33 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -610,7 +610,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 100.33 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -619,7 +619,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 161.29 100.33 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,7 +628,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 161.29 100.33 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,7 +732,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 115.57 90)
+		(at 166.37 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -741,7 +741,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bc7034d-a78c-4145-906d-269fe318da83")
 		(property "Reference" "D2"
-			(at 159.258 118.3697 90)
+			(at 164.338 118.3697 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -750,7 +750,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 159.258 115.9454 90)
+			(at 164.338 115.9454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -759,7 +759,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 161.29 115.57 0)
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,7 +768,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 115.57 0)
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,7 +777,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 161.29 115.57 0)
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,7 +786,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 161.29 115.57 0)
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,7 +995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LEDConnector"
 			(at 186.69 109.22 0)
 			(effects
 				(font
@@ -1039,7 +1039,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 123.19 90)
+		(at 166.37 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1048,7 +1048,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc7fc33e-ceef-4807-8045-8691b88e9b3c")
 		(property "Reference" "D1"
-			(at 159.258 125.9897 90)
+			(at 164.338 125.9897 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +1057,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 159.258 123.5654 90)
+			(at 164.338 123.5654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1066,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
-			(at 161.29 123.19 0)
+			(at 166.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,7 +1075,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 123.19 0)
+			(at 166.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1084,7 +1084,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 161.29 123.19 0)
+			(at 166.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1093,7 +1093,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 161.29 123.19 0)
+			(at 166.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
