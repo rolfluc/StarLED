@@ -86,157 +86,6 @@
 	(net 6 "Net-(D5-K)")
 	(net 7 "Net-(D6-K)")
 	(net 8 "Net-(D7-K)")
-	(footprint "Connect:1pin"
-		(layer "F.Cu")
-		(uuid "01702065-d8ac-459d-854e-888506f82d0f")
-		(at 146.64 88.02)
-		(descr "module 1 pin (ou trou mecanique de percage)")
-		(tags "DEV")
-		(property "Reference" "REF**"
-			(at 0 -3.048 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "dce29da2-f1f4-4299-937c-a837365dd1ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "1pin"
-			(at 0 2.794 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "418b5926-7ab9-4e2e-9d8f-108bff78f5ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "47aae4a8-55d6-4166-9bfe-e70cefc2b554")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "df29b301-1795-47fe-80c9-1a871e8bbc3c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 0 -2.286)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "d3bbc180-6420-480a-a7f1-2a6b40f0f7e9")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 3 3)
-			(drill 3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "1720dc3d-9814-4ea5-948c-5b072eb26b2b")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "Connect:1pin"
-		(locked yes)
-		(layer "F.Cu")
-		(uuid "2750e3fd-6b61-4cee-b2b7-1645a046a9ee")
-		(at 146.52 98.67)
-		(descr "module 1 pin (ou trou mecanique de percage)")
-		(tags "DEV")
-		(property "Reference" "REF**"
-			(at 0 -3.048 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8480d74c-d800-4f42-a146-2c9a7f7af062")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "1pin"
-			(at -4.3 -0.33 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "90697419-1290-4ffe-becf-b125c995f137")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7e341d38-d1b5-441e-a169-cceba74287da")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "677d853d-7187-4bea-93c8-5566dd22c55b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 0 -2.286)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "48ae8c5b-0e49-4386-9fe4-623d7e1bda68")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 3 3)
-			(drill 3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "d1737c85-4e36-4d2c-b61a-4a01f5f56088")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
 		(layer "F.Cu")
 		(uuid "393bcdc3-fcb1-4f00-9579-efba4c35b540")
@@ -472,82 +321,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "Connect:1pin"
-		(locked yes)
-		(layer "F.Cu")
-		(uuid "5b1ec61f-ae68-4b1c-a718-95453ac29631")
-		(at 137.4 103.87)
-		(descr "module 1 pin (ou trou mecanique de percage)")
-		(tags "DEV")
-		(property "Reference" "REF**"
-			(at 0 -3.048 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "905dd977-71e7-4646-bee2-ecb2156c2112")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "1pin"
-			(at -0.66 -3.11 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2219d0b2-3041-47ae-86bd-5824798ea23f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9cd3a26c-2f53-4fd0-aa11-2efba63db0c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c731fbe2-06d4-44e7-9102-58291ed88f61")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 0 -2.286)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "8b3ac9c5-fa5b-4800-95fb-de95183cad74")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 3 3)
-			(drill 3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "fb1a201c-ba53-4f70-a1a6-0bc98c43ada5")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
 		(layer "F.Cu")
@@ -1020,82 +793,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "Connect:1pin"
-		(locked yes)
-		(layer "F.Cu")
-		(uuid "8df57691-d6ef-432c-8530-534857cbf119")
-		(at 137.36 82.98)
-		(descr "module 1 pin (ou trou mecanique de percage)")
-		(tags "DEV")
-		(property "Reference" "REF**"
-			(at -0.02 1.49 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0b593da5-36ec-49e2-b1d5-ea0db73de0a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "1pin"
-			(at 0 2.794 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b5b6f89-787f-4ee0-9ebc-8f93aac5e7fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "82e0adbe-5ec8-4cee-b7b8-e4e5fc9cc16b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "187fe670-764c-48e7-a490-709bad82b86f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 0 -2.286)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "5fe0ed67-6184-4d89-bcf6-ae2683aeaab1")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 3 3)
-			(drill 3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "9d141aca-bda8-4dd3-97b9-e445975b4c82")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
 		(layer "F.Cu")
@@ -1805,82 +1502,6 @@
 			)
 		)
 	)
-	(footprint "Connect:1pin"
-		(locked yes)
-		(layer "F.Cu")
-		(uuid "f3403f3c-56ba-45c8-94e2-37354bfbd75e")
-		(at 128.07 98.71)
-		(descr "module 1 pin (ou trou mecanique de percage)")
-		(tags "DEV")
-		(property "Reference" "REF**"
-			(at 2.01 -3.77 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "75194d3b-6529-48a6-8af4-4c2c6650dfe1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "1pin"
-			(at 2.65 0.37 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "db2cba50-55bc-4e5a-87c3-267a6bab3c7b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75c099be-9677-4c78-9cd9-ebc14ab312b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e58331a5-6008-43ff-875c-d530afe7d0a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 0 -2.286)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "720533fb-daff-4439-85ef-c9c0da260d05")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 3 3)
-			(drill 3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "13160d48-292e-48a0-b005-6c66e3d71666")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
 		(layer "F.Cu")
 		(uuid "f3afdb9a-e5e5-43dc-88d9-4944920bcf02")
@@ -2116,82 +1737,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "Connect:1pin"
-		(locked yes)
-		(layer "F.Cu")
-		(uuid "f9dc5a75-8009-42b8-a9b9-1f4123da0ece")
-		(at 128.11 87.93)
-		(descr "module 1 pin (ou trou mecanique de percage)")
-		(tags "DEV")
-		(property "Reference" "REF**"
-			(at 2.22 0.05 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "02e90679-cf09-4086-8f66-600779535e71")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "1pin"
-			(at 1.43 2.86 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e355a654-87b5-4141-9205-55a79c88899b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4ff79db-15d9-41a6-bdca-2374ddfe73cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b13c61e-28ca-4589-bec6-e82d269039f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 0 -2.286)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "78b21269-e757-4e68-a1ca-6765fdbe8bea")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 3 3)
-			(drill 3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "7d8c491c-944f-4241-96d0-0243e768cb62")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
 		(layer "F.Cu")
@@ -2429,23 +1974,23 @@
 			)
 		)
 	)
-	(gr_circle
-		(center 128.08 98.7)
-		(end 126.58 98.7)
+	(gr_arc
+		(start 147.44 89.331249)
+		(mid 145.350062 88.780794)
+		(end 145.979465 86.713261)
 		(stroke
-			(width 0.15)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(fill no)
 		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "180a0b68-0c85-4caa-8183-68519230ea49")
+		(uuid "1c27da71-03d9-4ffe-9e26-252242f75315")
 	)
 	(gr_line
-		(start 127.44 87.5565)
-		(end 137.44 81.783)
+		(start 128.910865 86.707296)
+		(end 135.935247 82.646743)
 		(stroke
-			(width 0.15)
+			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
@@ -2453,33 +1998,33 @@
 		(uuid "1c87d157-b762-41a4-bc8c-3c22e284c5dd")
 	)
 	(gr_line
-		(start 137.44 81.783)
-		(end 147.44 87.5565)
+		(start 138.8534 82.599026)
+		(end 145.979467 86.713261)
 		(stroke
-			(width 0.15)
+			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "31046b6d-8a19-4ad0-aa65-02c2fcc09364")
 	)
-	(gr_circle
-		(center 128.15 88)
-		(end 126.65 88)
+	(gr_arc
+		(start 128.910865 86.707296)
+		(mid 129.46264 88.725931)
+		(end 127.459524 89.331632)
 		(stroke
-			(width 0.15)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(fill no)
 		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "4eb9e8a7-f4db-4f5f-b8f0-dc202c9bd5f7")
+		(uuid "673c09f3-5be4-4808-b9f9-7e00ede8e4a4")
 	)
 	(gr_line
-		(start 147.44 99.1035)
-		(end 137.44 104.877)
+		(start 145.893532 100.013543)
+		(end 138.892334 104.041457)
 		(stroke
-			(width 0.15)
+			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
@@ -2487,10 +2032,10 @@
 		(uuid "67653818-ec95-496f-965c-fa1e6483165e")
 	)
 	(gr_line
-		(start 137.44 104.877)
-		(end 127.44 99.1035)
+		(start 135.904017 103.999705)
+		(end 128.899997 99.95)
 		(stroke
-			(width 0.15)
+			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
@@ -2498,10 +2043,10 @@
 		(uuid "746119dc-7b6f-4d94-a474-1fb10872cd2c")
 	)
 	(gr_line
-		(start 127.44 87.5565)
-		(end 127.44 99.1035)
+		(start 127.442151 89.322477)
+		(end 127.442151 97.347947)
 		(stroke
-			(width 0.15)
+			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
@@ -2509,63 +2054,63 @@
 		(uuid "8426146c-f974-4467-9678-4fc00d06b5ed")
 	)
 	(gr_line
-		(start 147.44 87.5565)
-		(end 147.44 99.1035)
+		(start 147.44 89.331249)
+		(end 147.44 97.46)
 		(stroke
-			(width 0.15)
+			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "8b5c8345-b7b3-47da-ad0e-0fe090f72540")
 	)
-	(gr_circle
-		(center 146.54 98.66)
-		(end 145.04 98.66)
+	(gr_arc
+		(start 127.442151 97.347947)
+		(mid 129.38421 97.969292)
+		(end 128.9 99.95)
 		(stroke
-			(width 0.15)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(fill no)
 		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "ae8f74f9-1226-47d1-99f2-3a9aebd66139")
+		(uuid "d9c49147-bfaf-4185-98b6-1b51cc0f4504")
 	)
-	(gr_circle
-		(center 146.66 88.05)
-		(end 145.16 88.05)
+	(gr_arc
+		(start 138.853402 82.599028)
+		(mid 137.424524 84.469799)
+		(end 135.935247 82.646744)
 		(stroke
-			(width 0.15)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(fill no)
 		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "db8906f5-d9dc-431f-a220-9d54c292f721")
+		(uuid "e9983ff5-cbad-41a7-8680-da387e3b62c1")
 	)
-	(gr_circle
-		(center 137.4 82.97)
-		(end 135.9 82.97)
+	(gr_arc
+		(start 145.893532 100.013543)
+		(mid 145.256951 97.882964)
+		(end 147.44 97.46)
 		(stroke
-			(width 0.15)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(fill no)
 		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "e89212e4-2f93-4269-957c-5f37705e7598")
+		(uuid "f4774a6e-f708-4639-8ff1-b01b1225d23c")
 	)
-	(gr_circle
-		(center 137.4 103.89)
-		(end 135.9 103.89)
+	(gr_arc
+		(start 135.904017 103.999705)
+		(mid 137.420956 102.390146)
+		(end 138.892334 104.041457)
 		(stroke
-			(width 0.15)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(fill no)
 		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "f6e6c9db-277f-4265-bb7a-219c0f9ed7cf")
+		(uuid "f5ff598c-e526-4b3d-9b94-ce51906d08d2")
 	)
 	(embedded_fonts no)
 )
