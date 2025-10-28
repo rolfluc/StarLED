@@ -1,0 +1,2571 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(net 1 "Net-(D1-A)")
+	(net 2 "/LED-")
+	(net 3 "Net-(D2-A)")
+	(net 4 "Net-(D3-A)")
+	(net 5 "/LED+")
+	(net 6 "Net-(D5-K)")
+	(net 7 "Net-(D6-K)")
+	(net 8 "Net-(D7-K)")
+	(footprint "Connect:1pin"
+		(layer "F.Cu")
+		(uuid "01702065-d8ac-459d-854e-888506f82d0f")
+		(at 146.64 88.02)
+		(descr "module 1 pin (ou trou mecanique de percage)")
+		(tags "DEV")
+		(property "Reference" "REF**"
+			(at 0 -3.048 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dce29da2-f1f4-4299-937c-a837365dd1ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1pin"
+			(at 0 2.794 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "418b5926-7ab9-4e2e-9d8f-108bff78f5ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47aae4a8-55d6-4166-9bfe-e70cefc2b554")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df29b301-1795-47fe-80c9-1a871e8bbc3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 0 -2.286)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d3bbc180-6420-480a-a7f1-2a6b40f0f7e9")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1720dc3d-9814-4ea5-948c-5b072eb26b2b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Connect:1pin"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "2750e3fd-6b61-4cee-b2b7-1645a046a9ee")
+		(at 146.52 98.67)
+		(descr "module 1 pin (ou trou mecanique de percage)")
+		(tags "DEV")
+		(property "Reference" "REF**"
+			(at 0 -3.048 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8480d74c-d800-4f42-a146-2c9a7f7af062")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1pin"
+			(at -4.3 -0.33 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90697419-1290-4ffe-becf-b125c995f137")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e341d38-d1b5-441e-a169-cceba74287da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "677d853d-7187-4bea-93c8-5566dd22c55b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 0 -2.286)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "48ae8c5b-0e49-4386-9fe4-623d7e1bda68")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d1737c85-4e36-4d2c-b61a-4a01f5f56088")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(layer "F.Cu")
+		(uuid "393bcdc3-fcb1-4f00-9579-efba4c35b540")
+		(at 141.390001 91.4)
+		(descr "3.5mm x 2.8mm mid-power LED, https://www.everlight.com/wp-content/plugins/ItemRelationship/product_files/pdf/DSE-0020730-67-21ST-KK6C-HXXXX96Z6-2T_V3.pdf")
+		(tags "LED 3528")
+		(property "Reference" "D4"
+			(at 0 -2.4 0)
+			(layer "F.SilkS")
+			(uuid "88e504fc-08e1-4e79-b18b-8589f5ffc090")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "e8ead3e7-7946-40a8-bc5a-159424bd78b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2aa047cb-0276-4dfa-95b6-b7fbec50c8c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e9097f2-5b2c-4053-b6da-d437ff1abd94")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50eba740-729c-4869-a190-69d0ebffad83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/492ec664-c2b8-4f4a-a10f-0636aa1c4027")
+		(sheetname "/")
+		(sheetfile "StarLEDBoard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.5 -1.51)
+			(end 2.3 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dd33bd79-5e29-41e4-b452-1630f0510133")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c7a1cd45-5b5b-4cde-b4d2-15e94a528622")
+		)
+		(fp_line
+			(start -2.3 1.51)
+			(end 2.3 1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6740677d-58f3-44b8-8ad4-a60545eee44c")
+		)
+		(fp_line
+			(start -2.55 -1.65)
+			(end -2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a9ac1693-b826-4783-adc2-9e4120c665a5")
+		)
+		(fp_line
+			(start -2.55 1.65)
+			(end 2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1050bcf3-76cf-44e9-85fe-3591e6ff8bde")
+		)
+		(fp_line
+			(start 2.55 -1.65)
+			(end -2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2a98ba3a-e15c-4690-acf6-7e9ebcedcb8a")
+		)
+		(fp_line
+			(start 2.55 1.65)
+			(end 2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "915e980f-e0ae-4a2c-8968-034a06395439")
+		)
+		(fp_line
+			(start -1.749999 -1.4)
+			(end -1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2ff7affc-e555-4284-8aad-6dc1e85abb12")
+		)
+		(fp_line
+			(start -1.749999 1.4)
+			(end 1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d81a51d6-0944-4b22-9130-1e5b57cb67af")
+		)
+		(fp_line
+			(start -0.750001 -1.4)
+			(end -1.75 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "31787573-edd1-4d7e-bea2-d808c99a47c6")
+		)
+		(fp_line
+			(start 1.749999 -1.4)
+			(end -1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c1290d90-dc3a-4de9-bcf6-9c61f200d1ff")
+		)
+		(fp_line
+			(start 1.749999 1.4)
+			(end 1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4bbe24f7-2ea4-4f5a-a208-53ebc3d5b7cb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6a82f717-ee1b-4a87-84c3-992ce188e5fe")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.34 0)
+			(size 1.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 4 "Net-(D3-A)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "ae1c0a40-b00f-4b50-95de-bfebe9885151")
+		)
+		(pad "2" smd roundrect
+			(at 0.809999 0)
+			(size 2.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 5 "/LED+")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "06a46d88-89fa-4e02-80bd-61f9bd6f7634")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Everlight-SMD3528_3.5x2.8mm_67-21ST.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connect:1pin"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "5b1ec61f-ae68-4b1c-a718-95453ac29631")
+		(at 137.4 103.87)
+		(descr "module 1 pin (ou trou mecanique de percage)")
+		(tags "DEV")
+		(property "Reference" "REF**"
+			(at 0 -3.048 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "905dd977-71e7-4646-bee2-ecb2156c2112")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1pin"
+			(at -0.66 -3.11 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2219d0b2-3041-47ae-86bd-5824798ea23f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cd3a26c-2f53-4fd0-aa11-2efba63db0c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c731fbe2-06d4-44e7-9102-58291ed88f61")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 0 -2.286)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "8b3ac9c5-fa5b-4800-95fb-de95183cad74")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fb1a201c-ba53-4f70-a1a6-0bc98c43ada5")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(layer "F.Cu")
+		(uuid "5bf29639-07c2-4e30-9662-a7016940940b")
+		(at 141.390001 95)
+		(descr "3.5mm x 2.8mm mid-power LED, https://www.everlight.com/wp-content/plugins/ItemRelationship/product_files/pdf/DSE-0020730-67-21ST-KK6C-HXXXX96Z6-2T_V3.pdf")
+		(tags "LED 3528")
+		(property "Reference" "D5"
+			(at 0 -2.4 0)
+			(layer "F.SilkS")
+			(uuid "989d369a-677d-4207-a174-c58bd9fcf467")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "a83d9ab8-3698-44e4-9452-4bb92f22b53a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04de07bd-f125-4d0c-9f7f-4b1380fc0cf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "089e9d3d-fa99-4d63-9ff3-677e2589c167")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6af69ea2-d276-47d7-8b8a-38069a3bb60b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/657a463a-32d9-4607-acbd-eff230f47b91")
+		(sheetname "/")
+		(sheetfile "StarLEDBoard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.5 -1.51)
+			(end 2.3 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c147e378-70ee-4abf-bd22-60d424106ee0")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e77a6e11-acb5-447c-a4ce-75b8766ba1ad")
+		)
+		(fp_line
+			(start -2.3 1.51)
+			(end 2.3 1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "85aec32b-4a7d-464d-99f8-93cf86b0f7eb")
+		)
+		(fp_line
+			(start -2.55 -1.65)
+			(end -2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8f851f67-833e-450c-adfc-5a8c83a1f4ac")
+		)
+		(fp_line
+			(start -2.55 1.65)
+			(end 2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9bd69bd0-4bcb-43c7-a1aa-02f320da1089")
+		)
+		(fp_line
+			(start 2.55 -1.65)
+			(end -2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ed692c82-c1fd-4f0b-8c3d-ae2acde0684a")
+		)
+		(fp_line
+			(start 2.55 1.65)
+			(end 2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4b560499-851e-4d0c-beb0-020ec751d832")
+		)
+		(fp_line
+			(start -1.749999 -1.4)
+			(end -1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f76ad5d8-f022-4b6b-b857-1ab175e71606")
+		)
+		(fp_line
+			(start -1.749999 1.4)
+			(end 1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "156a4b3e-a734-44ff-bec1-a7b3ae5ee48c")
+		)
+		(fp_line
+			(start -0.750001 -1.4)
+			(end -1.75 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2eb1175a-8beb-4d4f-ab2f-31d1097e5233")
+		)
+		(fp_line
+			(start 1.749999 -1.4)
+			(end -1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "19286e6f-5b0b-4821-b081-27c056221bc9")
+		)
+		(fp_line
+			(start 1.749999 1.4)
+			(end 1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7e52be51-5167-41e0-b852-dbea01f1e127")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f6f882b4-0a5b-41dc-baae-e9a531fe78f5")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.34 0)
+			(size 1.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 6 "Net-(D5-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "39bfa153-8cde-460d-b36a-a0bb58ffab22")
+		)
+		(pad "2" smd roundrect
+			(at 0.809999 0)
+			(size 2.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 5 "/LED+")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "2002ba4b-3b17-4c03-9d25-a3d796f58125")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Everlight-SMD3528_3.5x2.8mm_67-21ST.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(layer "F.Cu")
+		(uuid "87bbb526-c8ae-4947-9349-77222b576b68")
+		(at 133.990001 98.6)
+		(descr "3.5mm x 2.8mm mid-power LED, https://www.everlight.com/wp-content/plugins/ItemRelationship/product_files/pdf/DSE-0020730-67-21ST-KK6C-HXXXX96Z6-2T_V3.pdf")
+		(tags "LED 3528")
+		(property "Reference" "D7"
+			(at 0 -2.4 0)
+			(layer "F.SilkS")
+			(uuid "05351bca-4d99-48c0-8521-2fccefa5f8f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "5b8ec8f3-fa5c-44a8-9427-970e1583b603")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c9b5a89-2e1d-4ac3-8317-9b56592c783d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74b3e9fc-1c98-4a18-ae07-782958be73b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "645d420b-44cf-40c8-a3ca-b4c25b352b65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/74cdda69-5f7e-47c9-834f-418832cf08e0")
+		(sheetname "/")
+		(sheetfile "StarLEDBoard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.5 -1.51)
+			(end 2.3 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "095c5eb9-e723-47b4-9d10-feed12c6c7ab")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c8d04945-8924-4b59-9a41-56e641d66fd3")
+		)
+		(fp_line
+			(start -2.3 1.51)
+			(end 2.3 1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7709adcb-8fc7-40f0-bfb1-841443088fc6")
+		)
+		(fp_line
+			(start -2.55 -1.65)
+			(end -2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3a8da0a9-908d-4fbf-abbd-07a73f796d9a")
+		)
+		(fp_line
+			(start -2.55 1.65)
+			(end 2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b81875ec-fd57-47d0-8010-85740164167e")
+		)
+		(fp_line
+			(start 2.55 -1.65)
+			(end -2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bed73379-f014-41f4-9e21-a1f7d3ac624f")
+		)
+		(fp_line
+			(start 2.55 1.65)
+			(end 2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e45a6206-bd16-4b7a-acb3-6ed05de30fbc")
+		)
+		(fp_line
+			(start -1.749999 -1.4)
+			(end -1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "53d12220-df0c-4fca-ad82-250e949d0ae9")
+		)
+		(fp_line
+			(start -1.749999 1.4)
+			(end 1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8009d892-f90e-40e9-8933-3a53247ade64")
+		)
+		(fp_line
+			(start -0.750001 -1.4)
+			(end -1.75 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "300ff133-0cd5-433d-9fcb-60c844c46928")
+		)
+		(fp_line
+			(start 1.749999 -1.4)
+			(end -1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "33f9f443-4d5c-4005-b407-7ffec3c8f96e")
+		)
+		(fp_line
+			(start 1.749999 1.4)
+			(end 1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "519a3e00-7066-4903-b3d6-92ddc7aa45df")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "eca2f08c-bdf1-400a-913c-c350b21e0624")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.34 0)
+			(size 1.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 8 "Net-(D7-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "c22bee8c-8491-4884-b582-092acba01a9c")
+		)
+		(pad "2" smd roundrect
+			(at 0.809999 0)
+			(size 2.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 7 "Net-(D6-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "b910ff7d-0031-4ad4-9436-491cb7a352db")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Everlight-SMD3528_3.5x2.8mm_67-21ST.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connect:1pin"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "8df57691-d6ef-432c-8530-534857cbf119")
+		(at 137.36 82.98)
+		(descr "module 1 pin (ou trou mecanique de percage)")
+		(tags "DEV")
+		(property "Reference" "REF**"
+			(at -0.02 1.49 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0b593da5-36ec-49e2-b1d5-ea0db73de0a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1pin"
+			(at 0 2.794 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b5b6f89-787f-4ee0-9ebc-8f93aac5e7fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82e0adbe-5ec8-4cee-b7b8-e4e5fc9cc16b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "187fe670-764c-48e7-a490-709bad82b86f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 0 -2.286)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "5fe0ed67-6184-4d89-bcf6-ae2683aeaab1")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9d141aca-bda8-4dd3-97b9-e445975b4c82")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(layer "F.Cu")
+		(uuid "942060c0-5c38-4761-84ab-cb4c550ad7f3")
+		(at 132.990001 95)
+		(descr "3.5mm x 2.8mm mid-power LED, https://www.everlight.com/wp-content/plugins/ItemRelationship/product_files/pdf/DSE-0020730-67-21ST-KK6C-HXXXX96Z6-2T_V3.pdf")
+		(tags "LED 3528")
+		(property "Reference" "D8"
+			(at 0 -2.4 0)
+			(layer "F.SilkS")
+			(uuid "75989af4-0084-4728-82f6-758943f03ae7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "602f64c2-7618-4d15-9a2d-68b8b1f81dd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba72f64e-4816-4cde-9cfc-5926789be17b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cb7cd16-f8d1-49e6-813f-1eab1e7badd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "916a813a-5071-4952-8ae6-0285c9958e36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/1edbc5d6-0fcf-4ce4-aefc-df06dabdf050")
+		(sheetname "/")
+		(sheetfile "StarLEDBoard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.5 -1.51)
+			(end 2.3 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "077a4b4b-8dde-4580-b99e-aa521ffd2d36")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c12a5582-3861-4290-ada5-c9db3acd48c5")
+		)
+		(fp_line
+			(start -2.3 1.51)
+			(end 2.3 1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "361ba163-586e-4489-a892-5d8261657bff")
+		)
+		(fp_line
+			(start -2.55 -1.65)
+			(end -2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "30ba5bed-8de7-4b91-9a74-da209dc8cab4")
+		)
+		(fp_line
+			(start -2.55 1.65)
+			(end 2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "67dd0f5f-1b68-4e9c-bbd7-ba654247636e")
+		)
+		(fp_line
+			(start 2.55 -1.65)
+			(end -2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "27a00615-264d-4353-b7d4-cae45732a11a")
+		)
+		(fp_line
+			(start 2.55 1.65)
+			(end 2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "83a7219a-309c-46cb-ba78-08eb6d9a28da")
+		)
+		(fp_line
+			(start -1.749999 -1.4)
+			(end -1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5e6821e6-6f8c-4766-b84c-30512599d48c")
+		)
+		(fp_line
+			(start -1.749999 1.4)
+			(end 1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d6f9f274-3671-499a-b07f-5d8cf119fefc")
+		)
+		(fp_line
+			(start -0.750001 -1.4)
+			(end -1.75 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dcfaf486-60f6-4462-8a5b-296f92f5ca4c")
+		)
+		(fp_line
+			(start 1.749999 -1.4)
+			(end -1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a3988498-9156-41d3-986d-ee5b75deed9a")
+		)
+		(fp_line
+			(start 1.749999 1.4)
+			(end 1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dd1fa7ca-0566-465d-a497-92fa49bb8766")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "03d15cee-a6a1-40f0-90eb-18ead6649b91")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.34 0)
+			(size 1.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 2 "/LED-")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "8d500701-6686-4293-b686-778cbe3814e3")
+		)
+		(pad "2" smd roundrect
+			(at 0.809999 0)
+			(size 2.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 8 "Net-(D7-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "9ad4cb33-ef72-49b6-b880-7848da13bef5")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Everlight-SMD3528_3.5x2.8mm_67-21ST.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(layer "F.Cu")
+		(uuid "9d98e676-f9a0-469b-a51f-b811a67bede7")
+		(at 132.990001 91.4)
+		(descr "3.5mm x 2.8mm mid-power LED, https://www.everlight.com/wp-content/plugins/ItemRelationship/product_files/pdf/DSE-0020730-67-21ST-KK6C-HXXXX96Z6-2T_V3.pdf")
+		(tags "LED 3528")
+		(property "Reference" "D1"
+			(at 0 -2.4 0)
+			(layer "F.SilkS")
+			(uuid "9ff44cf4-5af7-4dd2-8286-ec5c9133e622")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "8fc4c72f-0566-454e-8c9e-6aa8f2833208")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dca8bbc8-4b24-4372-bf2a-c873f880fca6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0a976a9-1d80-443e-8cde-51620a1a028d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce095d64-e9e7-4e19-98e4-257a6faa7b60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/cc7fc33e-ceef-4807-8045-8691b88e9b3c")
+		(sheetname "/")
+		(sheetfile "StarLEDBoard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.5 -1.51)
+			(end 2.3 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1350e770-e295-4507-8786-dfe5808b015b")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0ec9cefe-7b2b-4fc9-83f7-51a1bf439387")
+		)
+		(fp_line
+			(start -2.3 1.51)
+			(end 2.3 1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "29e4d322-9fd3-4cfe-aa13-148c763fe495")
+		)
+		(fp_line
+			(start -2.55 -1.65)
+			(end -2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a17850ce-dee6-431c-8bd7-f913cab171f9")
+		)
+		(fp_line
+			(start -2.55 1.65)
+			(end 2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a02df038-652e-4995-86ac-a355293b6d63")
+		)
+		(fp_line
+			(start 2.55 -1.65)
+			(end -2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5ce5090f-ff3f-49af-8658-e9678154df9c")
+		)
+		(fp_line
+			(start 2.55 1.65)
+			(end 2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fb18a555-ce71-4fef-9672-f38ef8601c8d")
+		)
+		(fp_line
+			(start -1.749999 -1.4)
+			(end -1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6edbff37-fc4e-4250-ab9a-cbc14d1f43ec")
+		)
+		(fp_line
+			(start -1.749999 1.4)
+			(end 1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2fcf1dc7-b557-4642-8460-b8866e3f5da8")
+		)
+		(fp_line
+			(start -0.750001 -1.4)
+			(end -1.75 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "765bb6e5-c1c0-43b0-a1ac-7bdc7a6eaa55")
+		)
+		(fp_line
+			(start 1.749999 -1.4)
+			(end -1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7b133170-27b0-4a28-bb70-891da2b92d09")
+		)
+		(fp_line
+			(start 1.749999 1.4)
+			(end 1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0ece9040-9c0b-4378-bf5d-dbc1efa0b255")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "db623230-8453-4b2d-8974-9416b4a40027")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.34 0)
+			(size 1.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 2 "/LED-")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "f5ca9ab0-0a2d-4e00-8e66-df5f09380bd0")
+		)
+		(pad "2" smd roundrect
+			(at 0.809999 0)
+			(size 2.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 1 "Net-(D1-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "299883e3-4ed2-4d97-a98d-bec984fb9129")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Everlight-SMD3528_3.5x2.8mm_67-21ST.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(layer "F.Cu")
+		(uuid "b786008c-29b7-472f-8718-8d74a98e2046")
+		(at 134.190001 88)
+		(descr "3.5mm x 2.8mm mid-power LED, https://www.everlight.com/wp-content/plugins/ItemRelationship/product_files/pdf/DSE-0020730-67-21ST-KK6C-HXXXX96Z6-2T_V3.pdf")
+		(tags "LED 3528")
+		(property "Reference" "D2"
+			(at 0 -2.4 0)
+			(layer "F.SilkS")
+			(uuid "d747d56e-bfbb-485a-8b78-d683049f0418")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "c7cba262-43b7-4509-a323-1d3684f214fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfce20d5-78df-4cca-9b25-94acced1ff4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38444083-7bf8-4296-a535-8ffe4b6dfda4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "330d80eb-71af-449b-90a2-8038b12938a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/6bc7034d-a78c-4145-906d-269fe318da83")
+		(sheetname "/")
+		(sheetfile "StarLEDBoard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.5 -1.51)
+			(end 2.3 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0f3e81f5-e48d-44ce-a024-745a3d845874")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fe27df40-7b43-4718-a2f4-f294aedcf171")
+		)
+		(fp_line
+			(start -2.3 1.51)
+			(end 2.3 1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "133d57b0-a840-4e70-ad82-d845d4ad46c9")
+		)
+		(fp_line
+			(start -2.55 -1.65)
+			(end -2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "601ac7c5-6d09-4275-85d2-864103bbf344")
+		)
+		(fp_line
+			(start -2.55 1.65)
+			(end 2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dca3bb1b-48a7-438b-8b55-79b37b05bd22")
+		)
+		(fp_line
+			(start 2.55 -1.65)
+			(end -2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "feb1a497-d716-4314-aaf7-01e1198b06c9")
+		)
+		(fp_line
+			(start 2.55 1.65)
+			(end 2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e9b3bda8-9ead-46c8-aa84-d68e7ed2a07a")
+		)
+		(fp_line
+			(start -1.749999 -1.4)
+			(end -1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a2af5516-b84c-4a83-a19f-4f21a2868eca")
+		)
+		(fp_line
+			(start -1.749999 1.4)
+			(end 1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "da5b1105-49d6-45ff-b6f8-4d5c60f7506f")
+		)
+		(fp_line
+			(start -0.750001 -1.4)
+			(end -1.75 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "24fd806e-d4b7-409f-98fa-377a084a3d14")
+		)
+		(fp_line
+			(start 1.749999 -1.4)
+			(end -1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "351d670d-6c40-4d62-b0a4-849ef396facb")
+		)
+		(fp_line
+			(start 1.749999 1.4)
+			(end 1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f504edf9-d55f-47ff-a4da-e66bca6b3eb3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5594e43d-66f2-40f4-88ba-dd3f49563947")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.34 0)
+			(size 1.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 1 "Net-(D1-A)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "9cd914e2-f02e-4cf6-a4a0-37f09c0dd94d")
+		)
+		(pad "2" smd roundrect
+			(at 0.809999 0)
+			(size 2.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 3 "Net-(D2-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "bd9a16f4-d760-49a8-8b22-1fb58900df70")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Everlight-SMD3528_3.5x2.8mm_67-21ST.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connect:1pin"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "f3403f3c-56ba-45c8-94e2-37354bfbd75e")
+		(at 128.07 98.71)
+		(descr "module 1 pin (ou trou mecanique de percage)")
+		(tags "DEV")
+		(property "Reference" "REF**"
+			(at 2.01 -3.77 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "75194d3b-6529-48a6-8af4-4c2c6650dfe1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1pin"
+			(at 2.65 0.37 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db2cba50-55bc-4e5a-87c3-267a6bab3c7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75c099be-9677-4c78-9cd9-ebc14ab312b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e58331a5-6008-43ff-875c-d530afe7d0a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 0 -2.286)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "720533fb-daff-4439-85ef-c9c0da260d05")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "13160d48-292e-48a0-b005-6c66e3d71666")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(layer "F.Cu")
+		(uuid "f3afdb9a-e5e5-43dc-88d9-4944920bcf02")
+		(at 139.59 98.6)
+		(descr "3.5mm x 2.8mm mid-power LED, https://www.everlight.com/wp-content/plugins/ItemRelationship/product_files/pdf/DSE-0020730-67-21ST-KK6C-HXXXX96Z6-2T_V3.pdf")
+		(tags "LED 3528")
+		(property "Reference" "D6"
+			(at 0 -2.4 0)
+			(layer "F.SilkS")
+			(uuid "1dd8f4de-326c-48a6-811e-b73b4c71c66f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "28b82154-05b2-4f50-87bc-64e83d4ea0c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c922c3f9-d3d8-4606-88a9-4e646e31322d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b1b5d34-f868-406d-9014-8f0fdb85bf2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e1e2563-03f5-4295-84f7-d8c0390e0794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/8cf3d498-900d-4b13-8e5d-f0e24f7426ae")
+		(sheetname "/")
+		(sheetfile "StarLEDBoard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.5 -1.51)
+			(end 2.3 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "369c6797-6490-424e-8091-737cbe3ab2c4")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "88ed0a2a-bc05-4ff5-962d-78f50fdabf3b")
+		)
+		(fp_line
+			(start -2.3 1.51)
+			(end 2.3 1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6c224034-79eb-4d03-80d8-6c3e856f221d")
+		)
+		(fp_line
+			(start -2.55 -1.65)
+			(end -2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4a408ff7-a0d5-4be8-b64d-29e79dbdfded")
+		)
+		(fp_line
+			(start -2.55 1.65)
+			(end 2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "83c9ee43-d4bf-4a5a-88a3-72eb1d7d3921")
+		)
+		(fp_line
+			(start 2.55 -1.65)
+			(end -2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "870f375b-5edd-4b43-bcce-8674813e0c9a")
+		)
+		(fp_line
+			(start 2.55 1.65)
+			(end 2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "76c7ba39-a924-4279-a1e2-19d5b75d06b7")
+		)
+		(fp_line
+			(start -1.75 -1.4)
+			(end -1.75 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "185a36f3-0a4c-4d24-8b02-2e0bd4ae7d77")
+		)
+		(fp_line
+			(start -1.75 1.4)
+			(end 1.75 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5d47d610-0028-4cac-a2a6-6506759d8310")
+		)
+		(fp_line
+			(start -0.75 -1.4)
+			(end -1.75 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "32849ec4-8a3c-4ea0-8427-ff2d20526b7c")
+		)
+		(fp_line
+			(start 1.75 -1.4)
+			(end -1.75 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "29d1194b-f446-478e-8919-7919fcb514a8")
+		)
+		(fp_line
+			(start 1.75 1.4)
+			(end 1.75 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2b030f06-7b7a-400b-a8c7-0e100c4d79ae")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ef531082-0b59-4ad4-a1eb-09f2ac983c30")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.34 0)
+			(size 1.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 7 "Net-(D6-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "40e08ba3-ea2a-48d4-a8f3-4e32e6c55cc0")
+		)
+		(pad "2" smd roundrect
+			(at 0.81 0)
+			(size 2.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 6 "Net-(D5-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "45dcdac0-a5ca-44be-a9d1-1f21206c61d9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Everlight-SMD3528_3.5x2.8mm_67-21ST.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connect:1pin"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "f9dc5a75-8009-42b8-a9b9-1f4123da0ece")
+		(at 128.11 87.93)
+		(descr "module 1 pin (ou trou mecanique de percage)")
+		(tags "DEV")
+		(property "Reference" "REF**"
+			(at 2.22 0.05 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "02e90679-cf09-4086-8f66-600779535e71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1pin"
+			(at 1.43 2.86 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e355a654-87b5-4141-9205-55a79c88899b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4ff79db-15d9-41a6-bdca-2374ddfe73cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b13c61e-28ca-4589-bec6-e82d269039f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 0 -2.286)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "78b21269-e757-4e68-a1ca-6765fdbe8bea")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7d8c491c-944f-4241-96d0-0243e768cb62")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LED_SMD:LED_Everlight-SMD3528_3.5x2.8mm_67-21ST"
+		(layer "F.Cu")
+		(uuid "ff1cf92d-0ccf-4174-bc86-c1bb73870ada")
+		(at 139.790001 88)
+		(descr "3.5mm x 2.8mm mid-power LED, https://www.everlight.com/wp-content/plugins/ItemRelationship/product_files/pdf/DSE-0020730-67-21ST-KK6C-HXXXX96Z6-2T_V3.pdf")
+		(tags "LED 3528")
+		(property "Reference" "D3"
+			(at 0 -2.4 0)
+			(layer "F.SilkS")
+			(uuid "bf5d2f72-8b74-4258-9e56-eae7886048ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "968dae51-f038-4df0-9fbb-a52c3fd07756")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "548a2fdc-5af4-4f33-876f-561dd0430d5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "964336ab-7bd1-4b0d-b376-d2bce9521db7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6cdbe2e-b9a6-4a32-8fc8-aae21a9ec8f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/26c9d9eb-701d-44cc-b2ae-6ce6f2589b9e")
+		(sheetname "/")
+		(sheetfile "StarLEDBoard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.5 -1.51)
+			(end 2.3 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f47e37c8-0382-4e9d-ad8d-0b43167e24b0")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "867193a3-236e-4659-a790-c771340b1208")
+		)
+		(fp_line
+			(start -2.3 1.51)
+			(end 2.3 1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8a5db1bd-466e-400b-bf54-1c936805ec38")
+		)
+		(fp_line
+			(start -2.55 -1.65)
+			(end -2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6652a193-d2d4-4958-acac-80313d17ddc4")
+		)
+		(fp_line
+			(start -2.55 1.65)
+			(end 2.55 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bc3d8902-edf6-49dd-95d3-e9f53bfc2ee9")
+		)
+		(fp_line
+			(start 2.55 -1.65)
+			(end -2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9ecea0d6-9504-4821-86da-53c2328f2bb5")
+		)
+		(fp_line
+			(start 2.55 1.65)
+			(end 2.55 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5adc0b5d-213a-4e28-bbdd-ee51b3aaa6f7")
+		)
+		(fp_line
+			(start -1.749999 -1.4)
+			(end -1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e7f35ea8-b8d0-4e3e-8b5f-f76dacbfbc34")
+		)
+		(fp_line
+			(start -1.749999 1.4)
+			(end 1.749999 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f404778e-1a62-4721-b70b-e9ccae7ab2d8")
+		)
+		(fp_line
+			(start -0.750001 -1.4)
+			(end -1.75 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "48a12347-b0de-4c84-b29f-035a7ffbd794")
+		)
+		(fp_line
+			(start 1.749999 -1.4)
+			(end -1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fb67a913-45a4-4b6f-889f-755a77ca1482")
+		)
+		(fp_line
+			(start 1.749999 1.4)
+			(end 1.749999 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fce9c160-01a2-47f0-9ded-aa070aa7f8f0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cc9fb156-70cb-44c9-83c2-32118a16f5ae")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.34 0)
+			(size 1.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 3 "Net-(D2-A)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "f5e992bc-e153-43a0-a752-d7d12055c621")
+		)
+		(pad "2" smd roundrect
+			(at 0.809999 0)
+			(size 2.1 2.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net 4 "Net-(D3-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "8e73e132-b250-4e6f-9533-f46e86334ca8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Everlight-SMD3528_3.5x2.8mm_67-21ST.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_circle
+		(center 128.08 98.7)
+		(end 126.58 98.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "180a0b68-0c85-4caa-8183-68519230ea49")
+	)
+	(gr_line
+		(start 127.44 87.5565)
+		(end 137.44 81.783)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "1c87d157-b762-41a4-bc8c-3c22e284c5dd")
+	)
+	(gr_line
+		(start 137.44 81.783)
+		(end 147.44 87.5565)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "31046b6d-8a19-4ad0-aa65-02c2fcc09364")
+	)
+	(gr_circle
+		(center 128.15 88)
+		(end 126.65 88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "4eb9e8a7-f4db-4f5f-b8f0-dc202c9bd5f7")
+	)
+	(gr_line
+		(start 147.44 99.1035)
+		(end 137.44 104.877)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "67653818-ec95-496f-965c-fa1e6483165e")
+	)
+	(gr_line
+		(start 137.44 104.877)
+		(end 127.44 99.1035)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "746119dc-7b6f-4d94-a474-1fb10872cd2c")
+	)
+	(gr_line
+		(start 127.44 87.5565)
+		(end 127.44 99.1035)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "8426146c-f974-4467-9678-4fc00d06b5ed")
+	)
+	(gr_line
+		(start 147.44 87.5565)
+		(end 147.44 99.1035)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "8b5c8345-b7b3-47da-ad0e-0fe090f72540")
+	)
+	(gr_circle
+		(center 146.54 98.66)
+		(end 145.04 98.66)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "ae8f74f9-1226-47d1-99f2-3a9aebd66139")
+	)
+	(gr_circle
+		(center 146.66 88.05)
+		(end 145.16 88.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "db8906f5-d9dc-431f-a220-9d54c292f721")
+	)
+	(gr_circle
+		(center 137.4 82.97)
+		(end 135.9 82.97)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "e89212e4-2f93-4269-957c-5f37705e7598")
+	)
+	(gr_circle
+		(center 137.4 103.89)
+		(end 135.9 103.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "f6e6c9db-277f-4265-bb7a-219c0f9ed7cf")
+	)
+	(embedded_fonts no)
+)
